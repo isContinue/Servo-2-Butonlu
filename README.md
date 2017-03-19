@@ -1,9 +1,9 @@
 
 ### Servo motorun 2 buton ile kontrolü, LCD de Yön ve derece gösterimi
 * **İlerleme Durumu ;**
-  * - [ ] Motor döndürülmesi Sag(+) ve Sol(-) Yönler
-  * - [ ] Sag buton kontrolü
-  * - [ ] Sag Sol buton kontrolü
+  * - [x] Motor döndürülmesi Sag(+) ve Sol(-) Yönler
+  * - [x] Sag buton kontrolü
+  * - [x] Sag Sol buton kontrolü
   * - [ ] Ekrana Dönüş __yönünün__ yazdırılması
   * - [ ] Ekrana Dönüş __açısının__ yazdırılması
 
