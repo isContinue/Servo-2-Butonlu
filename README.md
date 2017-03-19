@@ -1,17 +1,17 @@
 
-### Servo motorun 2 buton ile kontrolü, LCD de Yön ve derece gösterimi
-* **Ýlerleme Durumu ;**
-  * - [] Motor döndürülmesi Sag(+) ve Sol(-) Yönler
-  * - [] Sag buton kontrolü
-  * - [] Sag Sol buton kontrolü
-  * - [] Ekrana Dönüþ __yönünün__ yazdýrýlmasý
-  * - [] Ekrana Dönüþ __açýsýnýn__ yazdýrýlmasý
+### Servo motorun 2 buton ile kontrolÃ¼, LCD de YÃ¶n ve derece gÃ¶sterimi
+* **Ä°lerleme Durumu ;**
+  * - [ ] Motor dÃ¶ndÃ¼rÃ¼lmesi Sag(+) ve Sol(-) YÃ¶nler
+  * - [ ] Sag buton kontrolÃ¼
+  * - [ ] Sag Sol buton kontrolÃ¼
+  * - [ ] Ekrana DÃ¶nÃ¼ÅŸ __yÃ¶nÃ¼nÃ¼n__ yazdÄ±rÄ±lmasÄ±
+  * - [ ] Ekrana DÃ¶nÃ¼ÅŸ __aÃ§Ä±sÄ±nÄ±n__ yazdÄ±rÄ±lmasÄ±
 
 #### **Malzemeler ;**
 
 > *Arduino DUE*
 
-> *2.4 inch TFT Ekran *
+> *2.4 inch TFT Ekran*
 
 > *2 Adet Buton*
 
