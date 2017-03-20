@@ -4,8 +4,8 @@
   * - [x] Motor döndürülmesi Sag(+) ve Sol(-) Yönler
   * - [x] Sag buton kontrolü
   * - [x] Sag Sol buton kontrolü
-  * - [ ] Ekrana Dönüş __yönünün__ yazdırılması
-  * - [ ] Ekrana Dönüş __açısının__ yazdırılması
+  * - [x] Ekrana Dönüş __yönünün__ yazdırılması
+  * - [x] Ekrana Dönüş __açısının__ yazdırılması
 
 #### **Malzemeler ;**
 
