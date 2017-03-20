@@ -5,7 +5,7 @@
   * - [x] Sag buton kontrolü
   * - [x] Sag Sol buton kontrolü
   * - [x] Ekrana Dönüş __yönünün__ yazdırılması
-  * - [x] Ekrana Dönüş __açısının__ yazdırılması
+  * - [x] Ekrana Dönüş __derecesinin__ yazdırılması
 
 #### **Malzemeler ;**
 
