@@ -52,13 +52,15 @@ void loop() {
     if(pos >= 180) {pos = 180; break;}
   tft.setCursor(12,216);    
   tft.setTextSize(2);
+  tft.fillRect(189, 144, 38, 49, BLACK); // x baslangıc, y baslangıc, genişlik, yükseklik, renk
   tft.fillRect(12, 216, 216, 16, BLACK);
+  tft.fillTriangle(51, 192, 51, 144, 15, 168, WHITE);
   tft.print("Motor Sola Donuyor");
       for(pos;pos<=180;pos++){
         myservo.write(pos);
         tft.setCursor(66,144);
         tft.setTextSize(6);
-        tft.fillRect(66, 144, 144, 48, BLACK); // x baslangıc, y baslangıcı, genişlik, yükseklik, renk
+        tft.fillRect(66, 144, 108, 48, BLACK); // x baslangıc, y baslangıcı, genişlik, yükseklik, renk
         tft.print(180-pos);
         if (digitalRead(solbutonpin) == HIGH) break;
         delay(sure);
@@ -72,12 +74,14 @@ void loop() {
   tft.setCursor(12,216);    
   tft.setTextSize(2);
   tft.fillRect(12, 216, 216, 16, BLACK);
+  tft.fillRect(15, 144, 38, 49, BLACK);
   tft.print("Motor Saga Donuyor");
+  tft.fillTriangle(189, 192, 189, 144, 225, 168, WHITE);
       for(pos;pos>=0;pos--){
         myservo.write(pos);
         tft.setCursor(66,144);
         tft.setTextSize(6);
-        tft.fillRect(66, 144, 144, 48, BLACK); // x baslangıc, y baslangıcı, genişlik, yükseklik, renk
+        tft.fillRect(66, 144, 108, 48, BLACK); // x baslangıc, y baslangıcı, genişlik, yükseklik, renk
         tft.print(180-pos);
         if (digitalRead(sagbutonpin) == HIGH) break;
         delay(sure);
@@ -85,10 +89,12 @@ void loop() {
     if(pos <= 0) {pos = 0; break;} 
   }
  simdikipos = pos;
-if ((simdikipos != oncekipos)||((digitalRead(sagbutonpin) == HIGH) && (digitalRead(solbutonpin) == HIGH))) {
+if ((simdikipos != oncekipos)/*||((digitalRead(sagbutonpin) == HIGH) && (digitalRead(solbutonpin) == HIGH))*/) {
   oncekipos = simdikipos;
   tft.setCursor(42,216);    
   tft.setTextSize(2);
+  tft.fillRect(189, 144, 38, 49, BLACK);
+  tft.fillRect(15, 144, 38, 49, BLACK);
   tft.fillRect(12, 216, 216, 16, BLACK);
   tft.print("Motor Duruyor");
   while(1){
